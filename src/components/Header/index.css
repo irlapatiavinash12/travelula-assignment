@@ -1,0 +1,82 @@
+/* Header Container */
+
+.header {
+    position: relative;
+    height: 400px; 
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+  }
+  
+  
+  .carousel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; 
+  }
+  
+  
+  .carousel-slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    animation: carousel 12s infinite; 
+  }
+  
+  
+  .slide-1 {
+    background-image: url('https://res.cloudinary.com/dvptfc0ji/image/upload/v1740414969/maasai-men-standing-by-a-tree-in-the-masai-mara4_jaguvj.jpg'); /* Add your image */
+    animation-delay: 0s;
+  }
+  
+  .slide-2 {
+    background-image: url('https://res.cloudinary.com/dvptfc0ji/image/upload/v1740415446/Leonardo_Phoenix_09_A_breathtaking_scene_of_the_Masai_Mara_sav_11_p9l6kh.jpg'); /* Add your image */
+    animation-delay: 4s;
+  }
+  
+  .slide-3 {
+    background-image: url('https://res.cloudinary.com/dvptfc0ji/image/upload/v1740414969/masai-mara2_gichip.jpg'); /* Add your image */
+    animation-delay: 8s;
+  }
+
+  .slide-4 {
+    background-image: url('https://res.cloudinary.com/dvptfc0ji/image/upload/v1740414969/migration-rekero-go2africa3_xrtx3n.jpg'); /* Add your image */
+    animation-delay: 10s;
+  }
+  
+
+  @keyframes carousel {
+    0% {
+      opacity: 0;
+    }
+    8% {
+      opacity: 1;
+    }
+    33% {
+      opacity: 1;
+    }
+    41% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  
+  .header h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+    z-index: 1; 
+  }
