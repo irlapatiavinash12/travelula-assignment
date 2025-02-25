@@ -52,4 +52,4 @@ Open in Browser:
 The application will automatically open in your default browser at http://localhost:3000.
 
 web overview
-<video controls src="src/WebPictures/webscreenrecord.mp4" title="Title"></video>
+![Alt Text](src\WebPictures\localhost_3000_(Asus Zenbook Fold).png)
